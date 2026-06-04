@@ -24,14 +24,20 @@ A Mixed Reality companion application for Meta Quest. An AI-powered avatar is sp
 ## Project Structure
 
 ```
-Assets/
-├── Scripts/          # Core scripts (see Scripts/README.md for details)
-├── Animations/       # Idle, sitting, and gesture animations
-├── Animator/         # Animator controllers (human-sized / miniature)
-├── Oculus/           # Meta XR configuration
-├── Prefabs/          # Avatar and scene prefabs
-├── Scenes/           # Unity scenes
-└── Rukha93/          # Modular Anime Character asset
+MR_Companion/
+├── Assets/
+│   ├── Scripts/          # Core scripts (see Scripts/README.md for details)
+│   ├── Animations/       # Idle, sitting, and gesture animations
+│   ├── Animator/         # Animator controllers (human-sized / miniature)
+│   ├── Oculus/           # Meta XR configuration
+│   ├── Prefabs/          # Avatar and scene prefabs
+│   ├── Scenes/           # Unity scenes
+│   └── Rukha93/          # Modular Anime Character asset
+├── Experimenter_side_script/
+│   ├── experimenter_control_EN.py   # English version of experimenter CLI (still under construct)
+│   └── experimenter_control_CH.py   # Chinese version of experimenter CLI (still under construct)
+├── Packages/
+└── ProjectSettings/
 ```
 
 ## Setup
